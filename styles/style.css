@@ -11,12 +11,28 @@ body {
     color: #2F022B;
 }
 
-.titulo-destaque {
-    color: #8842AD;
+.cabecalho {
+    padding: 3% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 h1 {
     font-weight: bold;
+}
+
+.titulo-destaque {
+    color: #8842AD;
 }
 
 span {
