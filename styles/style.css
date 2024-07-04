@@ -61,6 +61,7 @@ span:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -130,4 +131,20 @@ span:hover {
     font-family: var(--fonte-secundaria);
     font-size: 1.2rem;
     font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+
+
+    }
 }
